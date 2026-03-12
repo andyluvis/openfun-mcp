@@ -1,0 +1,29 @@
+{
+  "name": "openfun-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for OpenFun.ai — AI video factory. Create viral short-form videos from Claude Desktop.",
+  "type": "module",
+  "bin": {
+    "openfun-mcp": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "files": ["dist/**/*"],
+  "keywords": ["mcp", "openfun", "ai", "video", "tiktok", "youtube", "claude"],
+  "author": "Andy Luvis <andyluvis29@gmail.com>",
+  "homepage": "https://www.openfun.ai",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andyluvis/openfun-mcp"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  }
+}
